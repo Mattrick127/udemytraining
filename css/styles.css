@@ -6,7 +6,7 @@ body {
 .container {
     max-width: 1440px;
     margin: auto;
-    background-color: yellow;
+    padding: 0 16px;
 }
 
 ul {

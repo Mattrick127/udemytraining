@@ -147,3 +147,19 @@ section.best-sellers h2 {
     font-weight: normal;
     margin: 0 0 14px 0;
 }
+
+section.best-sellers .product-slider {
+    
+}
+
+section.best-sellers .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.best-sellers .product-slider .product {
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 33%;
+    text-align: center;
+}

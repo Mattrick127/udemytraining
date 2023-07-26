@@ -16,6 +16,12 @@ ul {
     padding: 0;
 }
 
+hr {
+    border: none;
+    width: 66px;
+    border-top: 5px solid #67f11d;
+}
+
 header {
     position: fixed;
     top: 0;

@@ -164,11 +164,25 @@ section.best-sellers .product-slider .product {
     text-align: center;
     margin: 0 8;
     padding: 40px;
+    position: relative;
 }
 
-section.best-sellers .product-slider .product::before {
+section.best-sellers .product-slider .product.new::before {
     content: "New";
     background-color: red;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-align: center;
+    width: 81px;
+    height: 31px;
+    padding: 6px;
+    border-radius: 40px;
 }
 
 section.best-sellers .product-slider .product .product-info{

@@ -206,7 +206,7 @@ section.best-sellers .product-slider .product .product-info .categories{
     margin-top: 0;
 }
 
-section.best-sellers .product-slider .product .product-info .categories{
+section.best-sellers .product-slider .product .product-info .title{
     font-size: 20px;
     letter-spacing: 0.5px;
     line-height: 26px;
@@ -215,13 +215,25 @@ section.best-sellers .product-slider .product .product-info .categories{
     margin-top: 0;
 }
 
-section.best-sellers .product-slider .product .product-info .categories{
+section.best-sellers .product-slider .product .product-info .price{
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 0.7px;
     line-height: 30px;
     margin-bottom: 16px;
     margin-top: 0;
+}
+
+section.best-sellers .product-slider .product .product-info .price .discounted-price{
+    color: red; 
+}
+section.best-sellers .product-slider .product .product-info .price .original-price{
+    color: #9b9b9b;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    text-decoration: line-through;
 }
 
 section.best-sellers .product-slider .product .product-info button {

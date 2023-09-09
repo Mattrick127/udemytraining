@@ -163,6 +163,12 @@ section.best-sellers .product-slider .product {
     width: 33%;
     text-align: center;
     margin: 0 8;
+    padding: 40px;
+}
+
+section.best-sellers .product-slider .product::before {
+    content: "New";
+    background-color: red;
 }
 
 section.best-sellers .product-slider .product .product-info{

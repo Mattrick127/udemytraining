@@ -275,13 +275,18 @@ section.newsletter p {
 }
 
 section.newsletter form {
-    
+    display: flex;
+    justify-content: center;
 }
 
 section.newsletter form input {
-    
+    height: 50px;
+    width: 326px;
+    max-width: 80%;
 }
 
 section.newsletter form button {
-    
+    height: 50px;
+    width: 145px;
+    max-width: 20%;
 }

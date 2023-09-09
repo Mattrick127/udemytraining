@@ -283,10 +283,25 @@ section.newsletter form input {
     height: 50px;
     width: 326px;
     max-width: 80%;
+    box-sizing: border-box;
+    border-radius: 60px 0 0 60px;
+    border: ipx solid #3e3e3e;
+    padding-left: 22px;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 section.newsletter form button {
     height: 50px;
     width: 145px;
     max-width: 20%;
+    box-sizing: border-box;
+    border-radius: 0 60px 60px 0;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    text-transform: uppercase;
+    line-height: 21px;
 }

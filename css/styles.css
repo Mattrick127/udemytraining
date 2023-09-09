@@ -256,3 +256,20 @@ section.newsletter {
     padding: 72px 0;
     margin: 80px auto;
 }
+
+section.newsletter h3 {
+    font-size: 24px;
+    letter-spacing: 0.6;
+    line-height: 42px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+section.newsletter p {
+    font-size: 16px;
+    letter-spacing: 0.4;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}

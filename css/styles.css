@@ -305,9 +305,6 @@ section.newsletter form button {
     line-height: 21px;
 }
 
-footer {
-    text-align: center;
-}
 footer .bottom-nav {
     padding: 60px 0;
     background-color: #3e3e3e;
@@ -352,10 +349,15 @@ footer .bottom-nav ul li.list-title {
 }
 
 footer .bottom-nav ul li a {
+    text-decoration: none;
     color: white;
     font-size: 16px;
     letter-spacing: 0.4;
     line-height: 22px;
     margin-bottom: 10px;
     margin-top: 0;
+    display: block;
+}
+footer .bottom-nav ul {
+    list-style: none;
 }
